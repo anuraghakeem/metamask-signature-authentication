@@ -1,10 +1,22 @@
-import './App.css';
+import SignMessage from "./Comps/SignMessage";
+import VerifyMessage from "./Comps/VerifyMessage";
+import Footer from "./Comps/Footer";
+
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Test</h1>
-    </div>
+    <>
+      <div className="main-wrapper">
+        <div className="subsection-wrapper">
+          <SignMessage />
+        </div>
+        <div className="subsection-wrapper">
+          <VerifyMessage />
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
