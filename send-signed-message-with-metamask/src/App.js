@@ -11,7 +11,7 @@ function App() {
     <>
       <div className="main-wrapper">
         <div className="subsection-wrapper">
-          <h1>E712 BASED VERIFICATION</h1>
+          <h1>EIP 712 BASED VERIFICATION</h1>
           <SignMessage712 />
         </div>
         <div className="subsection-wrapper">
