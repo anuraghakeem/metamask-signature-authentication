@@ -4,7 +4,7 @@ const Footer = () => {
 return(
     <div className="footer-conatiner">
         <img src={footerLogo} className='artemis-logo'></img>
-        <p>©2021 Artemis. All rights reserved.</p>
+        <p>©2022 Artemis. All rights reserved.</p>
     </div>
 )
 }
